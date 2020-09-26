@@ -4,31 +4,41 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
+  <title>Welcome</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="stylelogin.css">
 
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
-        <!-- <<!doctype form action html="/action_page.php" > method="get">  -->
-        <div>
-            <p1>Welcome to PostIt!</p1><br>
+    
+    <section>
+
+        <div class="logo">
+                 <img src="logo.png" alt="PostIt">  
+        </div>
+             
+        <div class = "login-container">
+
+            
+               
+            <p1 id="welcome">Welcome to postIt!</p1><br>
             <a href="url">Create an Account</a><br>
-            <p1>or</p1><br>
+            <p1>Or</p1><br>
             <p1>Please Log In</p1><br>
             
-            <input type="email" name="Email" placeholder="Email"><br>
-            <input type="password" name="Password" placeholder="Login"><br>
-            
-            <form action="index.html">
-                <input type="submit" value="Login" />
+
+            <form class ="form_1" action="index.html">
+
+            <input type="text" name="Email" placeholder="Email"><br>
+            <input type="text" name="Password" placeholder="Password"><br>
+            <input type="submit" value="Login" />
             </form>
             
             <a href="url">Forgot password?</a>
-        </div>    
+        </div> 
+    </section>      
 </body>
 </html>
