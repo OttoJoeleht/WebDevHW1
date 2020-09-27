@@ -16,6 +16,14 @@ body {
 
 }
 
+p1 {
+    color: darkgrey;
+    font-size: 13px;
+    text-align: right;
+    padding-bottom: 10px;
+    
+    
+}
 section {
 
 	background-color: white;
@@ -34,7 +42,6 @@ section {
     font-weight: bold;
     box-shadow: 0px 0px 30px -15px #000000;
 	border-radius: 10px;
-
 }
 
 nav {
@@ -42,10 +49,10 @@ nav {
     position: fixed;
     width: 100%;
     top: 0px;
-    z-index: 99999;
     display: flex;
     background-color: #ffffff;
-    align-items: center;
+    left: 0px;
+    
 
 }
 
@@ -55,15 +62,16 @@ box-shadow:0 0px 20px #1f1e1e;
 
 }
 
-nav div {
+section nav div {
 
     height: 30px;
-    flex-grow: 2;
     padding: 10px;
+    
+    
 
 }
 
-nav div img {
+div img {
 
     height: 100%;
 
@@ -72,6 +80,8 @@ nav div img {
 .search-container {
 	
 	background-color: white;
+    display:inline-flex;
+    margin: 0 auto;
 	
 }
 
@@ -89,12 +99,11 @@ nav div.search-container > input {
 nav div.search-container > button {
 
     box-sizing: border-box;
-    height: 30px;
-    width: 0px;
-    margin: 0;
-    padding: 5px;
+    height: 31px;
+    padding: 5px 30px;
     border: 1px solid #e0e0e0;
     cursor: pointer;
-    background-color: #e0e0e0;
+    background-color: darkblue;
+    color:aliceblue
 
 }
